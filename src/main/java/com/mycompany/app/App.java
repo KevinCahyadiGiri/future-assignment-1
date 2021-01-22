@@ -1,13 +1,22 @@
 package com.mycompany.app;
 
-/**
- * Hello world!
- *
- */
+import java.util.*;
+  
 public class App 
 {
+    // static void captWithoutLib(String str) {
+    //     System.out.println("haii");
+    // }
+
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Tulis suatu kalimat: ");
+        // String sentence = sc.nextLine();
+        // sc.close();
+        // System.out.println(sentence);
+        // System.out.println( "Hello World!" );
+
+        // captWithoutLib("hai");
     }
 }
