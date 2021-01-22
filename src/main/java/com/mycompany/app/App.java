@@ -1,22 +1,18 @@
 package com.mycompany.app;
 
-import java.util.*;
   
 public class App 
 {
-    // static void captWithoutLib(String str) {
-    //     System.out.println("haii");
-    // }
 
     public static void main( String[] args )
     {
-        // Scanner sc = new Scanner(System.in);
-        // System.out.print("Tulis suatu kalimat: ");
-        // String sentence = sc.nextLine();
-        // sc.close();
-        // System.out.println(sentence);
-        // System.out.println( "Hello World!" );
+        Capitalize test1 = new Capitalize("I want to learn git and maven");
+        System.out.println(test1.capitalizeWithLib());
 
-        // captWithoutLib("hai");
+        String[] splittedWithLib = test1.splitWithLib();
+        for(String string :(splittedWithLib)) {
+            System.out.println(string);
+        }
+
     }
 }
