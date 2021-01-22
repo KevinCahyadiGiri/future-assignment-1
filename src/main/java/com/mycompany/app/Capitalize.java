@@ -1,6 +1,6 @@
 package com.mycompany.app;
 
-// import org.apache.commons.*;
+import org.apache.commons.lang3.StringUtils;
 
 public class Capitalize {
     private String sentence;
@@ -26,13 +26,14 @@ public class Capitalize {
         return(words);
     }
 
-    //
-    // public String splitWithLib(){
+    // split sentence into array
+    public String[] splitWithLib(){
+        String[] splittedSentence = StringUtils.split(this.sentence, " ");
+        return splittedSentence;
+    }
 
-    // }
-
-    // //
-    // public String capitalizeWithLib(){
-
-    // }
+    // capitalize sentence
+    public String capitalizeWithLib(){
+        return StringUtils.capitalize(this.sentence);
+    }
 }

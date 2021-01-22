@@ -1,12 +1,8 @@
 package com.mycompany.app;
 
 import java.util.*;
-  
 public class App 
 {
-    // static void captWithoutLib(String str) {
-    //     System.out.println("haii");
-    // }
 
     public static void main( String[] args )
     {
@@ -18,10 +14,12 @@ public class App
         String stc = capt.capitalizeWithoutLib();
         System.out.println(stc);
 
+        // With library
+        System.out.println(capt.capitalizeWithLib());
+        String[] splittedWithLib = capt.splitWithLib();
+        for(String string :(splittedWithLib)) {
+            System.out.println(string);
+        }
 
-        // System.out.println(sentence);
-        // System.out.println( "Hello World!" );
-
-        // captWithoutLib("hai");
     }
 }
