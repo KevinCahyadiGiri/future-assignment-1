@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.071" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.139" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/media/gennardo/New Volume/Web Dev/Blibli/Day 7/maven project/future-assignment-1/target/surefire/surefirebooter10348475172229240347.jar /media/gennardo/New Volume/Web Dev/Blibli/Day 7/maven project/future-assignment-1/target/surefire 2021-01-22T16-54-33_159-jvmRun1 surefire3145801434251313031tmp surefire_08344528108892774698tmp"/>
+    <property name="sun.java.command" value="/media/gennardo/New Volume/Web Dev/Blibli/Day 7/maven project/future-assignment-1/target/surefire/surefirebooter11138226003206211004.jar /media/gennardo/New Volume/Web Dev/Blibli/Day 7/maven project/future-assignment-1/target/surefire 2021-01-22T17-12-28_321-jvmRun1 surefire12793588361221880815tmp surefire_013989819303169023609tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/media/gennardo/New Volume/Web Dev/Blibli/Day 7/maven project/future-assignment-1/target/test-classes:/media/gennardo/New Volume/Web Dev/Blibli/Day 7/maven project/future-assignment-1/target/classes:/home/gennardo/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/gennardo/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/gennardo/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/media/gennardo/New Volume/Web Dev/Blibli/Day 7/maven project/future-assignment-1/target/surefire/surefirebooter10348475172229240347.jar"/>
+    <property name="surefire.real.class.path" value="/media/gennardo/New Volume/Web Dev/Blibli/Day 7/maven project/future-assignment-1/target/surefire/surefirebooter11138226003206211004.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.9.1+1-Ubuntu-0ubuntu1.18.04"/>
     <property name="user.name" value="gennardo"/>
@@ -57,5 +57,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.mycompany.app.AppTest" time="0.002"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.mycompany.app.AppTest" time="0.003"/>
 </testsuite>

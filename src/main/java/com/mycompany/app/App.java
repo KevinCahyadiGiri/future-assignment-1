@@ -1,6 +1,6 @@
 package com.mycompany.app;
 
-  
+import java.util.*;
 public class App 
 {
 
@@ -15,8 +15,8 @@ public class App
         System.out.println(stc);
 
         // With library
-        System.out.println(sentence.capitalizeWithLib());
-        String[] splittedWithLib = sentence.splitWithLib();
+        System.out.println(capt.capitalizeWithLib());
+        String[] splittedWithLib = capt.splitWithLib();
         for(String string :(splittedWithLib)) {
             System.out.println(string);
         }
